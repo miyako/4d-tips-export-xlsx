@@ -52,7 +52,7 @@ $si:=DOM Find XML element($sst;"sst/si";$sis)
 	2行目
 	【重要】何も設定していないセルは保存時に省略されるので
 	何らかの値をプレースホルダーとして入力するか
-	デフォルト以外のフォーマットをかならず適用します。
+	デフォルト以外のフォーマットをかならず設定します。
 	
 	数値
 	プレースホルダーとして0を入力するか
@@ -67,7 +67,7 @@ $si:=DOM Find XML element($sst;"sst/si";$sis)
 	値が0の場合には空の文字列が表示されるようにします。
 	
 	時刻
-	エクセルの時刻（1900年の元旦の時刻）
+	エクセルの時刻（24時間を1として換算）
 	
 */
 
@@ -123,3 +123,12 @@ $file.setContent($XLSX)
 
 OPEN URL($file.platformPath)
 ```
+
+## 関連情報
+
+`.xlsx`を出力する方法はいろいろあります。
+
+* [XL Plugin](https://www.pluggers.nl/product/xl-plugin/)
+* [4D View Pro](https://doc.4d.com/4Dv18/4D/18/VP-EXPORT-DOCUMENT.301-4522260.ja.html)
+* [2020年サミット - Justin Will](https://events.4d.com/summit2020/session/generate-pdfs-excel-files-and-ways-to-integrate-pre-post-scripts-through-quick-report/)
+* [XLSXIO](https://github.com/miyako/4d-plugin-xlsxio)
