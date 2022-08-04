@@ -123,3 +123,11 @@ $file.setContent($XLSX)
 
 OPEN URL($file.platformPath)
 ```
+
+## 関連情報
+
+`.xlsx`を出力する方法はいろいろあります。
+
+* [XL Plugin](https://www.pluggers.nl/product/xl-plugin/)
+* [4D View Pro](https://doc.4d.com/4Dv18/4D/18/VP-EXPORT-DOCUMENT.301-4522260.ja.html)
+* [2020年サミット - Justin Will](https://events.4d.com/summit2020/session/generate-pdfs-excel-files-and-ways-to-integrate-pre-post-scripts-through-quick-report/)
