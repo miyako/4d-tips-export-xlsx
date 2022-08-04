@@ -1,5 +1,4 @@
 ![version](https://img.shields.io/badge/version-18%2B-EB8E5F)
-[![license](https://img.shields.io/github/license/miyako/4d-tips-export-xlsx)](LICENSE)
 
 # 4d-tips-export-xlsx
 Zipコマンドを活用してスプレッドシートを作成する例題
