@@ -1,4 +1,6 @@
 //%attributes = {"invisible":true}
+//note: standard XPath is enabled
+
 /*
 
 あらかじめMicrosoft® Excelで作成した

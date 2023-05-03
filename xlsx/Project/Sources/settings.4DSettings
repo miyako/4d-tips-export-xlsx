@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><preferences stamp="2">
+	<com.4d>
+		<server>
+			<network>
+				<options use_legacy_network_layer="false"/>
+			</network>
+		</server>
+		<database>
+			<misc mac_use_lf="false" no_bom="false" prefer_null_than_blank_values="false" standard_xpath="true"/>
+		</database>
+	</com.4d>
+</preferences>
